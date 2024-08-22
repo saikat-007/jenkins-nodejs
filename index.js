@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Define a port
-const port = 3000;
+const port = 80;
 
 // Define a route for the root URL ('/')
 app.get('/', (req, res) => {
